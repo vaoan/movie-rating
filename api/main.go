@@ -6,9 +6,11 @@ import (
 	"log"
 	dbg "runtime/debug"
 
+	"github.com/gorilla/handlers"
 	"github.com/rs/cors"
 	"movie-rating-api/db"
 	movieHttp "movie-rating-api/http"
+
 	"net/http"
 	"time"
 )
@@ -52,7 +54,9 @@ func main() {
 		AllowCredentials: true,
 		AllowedMethods:   []string{"GET", "DELETE", "POST", "PUT"},
 	})
-	handler := c.Handler(r)
+
+	corsObj := handlers.AllowedOrigins([]string{"*"})
+	handler := c.Handler(handlers.CORS(corsObj)(r))
 
 	// start http server
 	err = http.ListenAndServe(fmt.Sprintf(":%s", port), handler)
