@@ -1,0 +1,30 @@
+.Button-layout {
+    margin-right: 50px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.Movie-gif {
+    height: 40vmin;
+    pointer-events: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 170px 0;
+
+}
+.Header {
+    text-align: center;
+}
+
+.Background {
+    background-image: url("Colorful-Circle-Simple-Background-Image-1.jpeg");
+    padding: 1rem;
+    background-size: auto;
+    height: 100vmin;
+}
+

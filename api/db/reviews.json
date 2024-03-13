@@ -1,0 +1,362 @@
+[
+  {
+    "Id": 1,
+    "Title": "Life of Brian",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": 80
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": 95
+      },
+      {
+        "Source": "Metacritic",
+        "Value": 77
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Title": "Star Wars",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": 86
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": 92
+      },
+      {
+        "Source": "Metacritic",
+        "Value": 90
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Title": "The Mitchells vs the Machines",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": 77
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": 97
+      },
+      {
+        "Source": "Metacritic",
+        "Value": 81
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Title": "Coco",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": 84
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": 97
+      },
+      {
+        "Source": "Metacritic",
+        "Value": 81
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Title": "Logan",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": 81
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": 94
+      },
+      {
+        "Source": "Metacritic",
+        "Value": 77
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "Title": "Akira",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": 80
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": 90
+      },
+      {
+        "Source": "Metacritic",
+        "Value": 67
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "Title": "Forrest Gump",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": 88
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": 70
+      },
+      {
+        "Source": "Metacritic",
+        "Value": 82
+      }
+    ]
+  },
+  {
+    "Id": 8,
+    "Title": "Star Wars: Episode V - The Empire Strikes Back",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": 87
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": 94
+      },
+      {
+        "Source": "Metacritic",
+        "Value": 82
+      }
+    ]
+  },
+  {
+    "Id": 9,
+    "Title": "Rogue One: A Star Wars Story",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": 78
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": 84
+      },
+      {
+        "Source": "Metacritic",
+        "Value": 65
+      }
+    ]
+  },
+  {
+    "Id": 10,
+    "Title": "Terminator 2: Judgment Day",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": 86
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": 93
+      },
+      {
+        "Source": "Metacritic",
+        "Value": 75
+      }
+    ]
+  },
+  {
+    "Id": 11,
+    "Title": "The Lion King",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": 85
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": 93
+      },
+      {
+        "Source": "Metacritic",
+        "Value": 88
+      }
+    ]
+  },
+  {
+    "Id": 12,
+    "Title": "Spider-Man: Into the Spider-Verse",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": 84
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": 97
+      },
+      {
+        "Source": "Metacritic",
+        "Value": 87
+      }
+    ]
+  },
+  {
+    "Id": 13,
+    "Title": "Shaun of the Dead",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": 79
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": 92
+      },
+      {
+        "Source": "Metacritic",
+        "Value": 76
+      }
+    ]
+  },
+  {
+    "Id": 14,
+    "Title": "Jumanji: Welcome to the Jungle",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": 69
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": 76
+      },
+      {
+        "Source": "Metacritic",
+        "Value": 58
+      }
+    ]
+  },
+  {
+    "Id": 15,
+    "Title": "Back to the Future",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": 86
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": 96
+      },
+      {
+        "Source": "Metacritic",
+        "Value": 87
+      }
+    ]
+  },
+  {
+    "Id": 16,
+    "Title": "Turning Red",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": 70
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": 94
+      },
+      {
+        "Source": "Metacritic",
+        "Value": 83
+      }
+    ]
+  },
+  {
+    "Id": 17,
+    "Title": "Monty Python and the Holy Grail",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": 82
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": 97
+      },
+      {
+        "Source": "Metacritic",
+        "Value": 91
+      }
+    ]
+  },
+  {
+    "Id": 18,
+    "Title": "Star Wars: Episode III - Revenge of the Sith",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": 76
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": 80
+      },
+      {
+        "Source": "Metacritic",
+        "Value": 68
+      }
+    ]
+  },
+  {
+    "Id": 19,
+    "Title": "Pokémon: The First Movie - Mewtwo Strikes Back",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": 62
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": 16
+      },
+      {
+        "Source": "Metacritic",
+        "Value": 35
+      }
+    ]
+  },
+  {
+    "Id": 20,
+    "Title": "Toy Story",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": 83
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": 100
+      },
+      {
+        "Source": "Metacritic",
+        "Value": 95
+      }
+    ]
+  }
+]

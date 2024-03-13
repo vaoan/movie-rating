@@ -1,0 +1,44 @@
+version: "3.7"
+services:
+  postgres:
+    image: postgres
+    expose:
+      - "5432"
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=docker
+    networks:
+      default:
+        aliases:
+          - postgres
+#    volumes:
+      # this keeps the data persistent
+#      - ./db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD", "nc", "-z", "localhost", "5432" ]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+
+  api:
+    networks:
+      default:
+        aliases:
+          - api
+    image: api:local
+    build:
+      context: ../api
+      dockerfile: Dockerfile.playground
+    volumes:
+      - .:/config
+    expose:
+      - "8080"
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+    links:
+        - postgres
+    restart: always
