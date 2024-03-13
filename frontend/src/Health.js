@@ -7,7 +7,9 @@ const Health = () => {
     useEffect(() => {
         const fetchHealth = async () => {
             try {
-                const {data} = await axios.get('http://localhost:8080/api/health');
+                // When running in codespaces: Terminal -> Ports tab -> Copy forwarded address under port 8080 +/api/health 
+                // Important you right click 8080 -> Port visibility -> Public
+                const {data} = await axios.get('https://ideal-goggles-jjjjv55grqw254j-8080.app.github.dev/api/health');
                 setHealth(data);
                 return data;
             } catch (error) {
