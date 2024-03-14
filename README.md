@@ -25,7 +25,7 @@ If you are looking for running the app locally see PrerequisiteGuide.md
 
 ### Go API
 1. Wait for the docker container to start up. You can view Docker on the left of your codespace
-   - If you do not see the docker whale, naigate to the boxes on the left and install the docker extension
+   - If you do not see the docker whale, navigate to the boxes on the left and install the docker extension
    
    ![img_4.png](img_4.png)
    ![img_5.png](img_5.png)
