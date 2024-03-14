@@ -30,10 +30,9 @@ If you are looking for running the app locally see PrerequisiteGuide.md
    ![img_4.png](img_4.png)
    ![img_5.png](img_5.png)
 
-2. From a terminal opened to this repo `cd api` and run `go mod vendor`
-3. `cd ../playground`
-4. your path (`pwd`) should be **{system directories}/interview-pre-req-check/playground**
-5. run `./build.sh`
+2. `cd ../playground`
+3. your path (`pwd`) should be **{system directories}/interview-pre-req-check/playground**
+4. run `./build.sh`
 - you may need to either `chmod +x ./build.sh` to make it executable or just run the below commands as an alternative
   ```
     docker-compose down -v --remove-orphans
@@ -43,16 +42,13 @@ If you are looking for running the app locally see PrerequisiteGuide.md
 - Postgres db will start
 - API will start at localhost:8080
     - note: you may see a "connection refused" until postgres fully stands up
-6. Find the Ports tab on the bottom of the codespace next to your Terminal. Use the url found under `Forwarded Port` for 8080 going forward 
+5. Find the Ports tab on the bottom of the codespace next to your Terminal. Use the url found under `Forwarded Port` for 8080 going forward 
    
    ![img_6.png](img_6.png)
 
-7. Validate api started correctly by navigating to `http://$[8080 Forwarded Port}/api/health` in a browser or run `curl http:///$[8080 Forwarded Port}/api/health` and confirming response body of **{"health":"OK"}**
+6. Validate api started correctly by navigating to `http://$[8080 Forwarded Port}/api/health` in a browser or run `curl http:///$[8080 Forwarded Port}/api/health` and confirming response body of **{"health":"OK"}**
    
    ![img_7.png](img_7.png)
-
-Troubleshooting:
-- If you encounter any issues building the application before start, try deleting the provided vendor file at /api/vendor and running `go mod tidy` and `go mod vendor`
 
 ### React App
 1. Open a new terminal in the repo directory and `cd frontend`
