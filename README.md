@@ -52,10 +52,14 @@ If you are looking for running the app locally see PrerequisiteGuide.md
 
 ### React App
 1. Open a new terminal in the repo directory and `cd frontend`
-- your path (`pwd`) should be **{system directories}/interview-pre-req-check/frontend**
+   - <img width="1250" alt="image" src="https://github.com/FireWolf123456/movie-rating/assets/11531262/6425f236-681c-44d9-b9ee-2e5252a0c285">
+
+   - your path (`pwd`) should be **{system directories}/interview-pre-req-check/frontend**
 2. `npm install --location=global react-scripts`
-3. `npm install`
-4. `npm start`
+   - You can ignore most versioning warnings. See Troubleshooting if needed.
+4. `npm install`
+   - You can ignore most versioning warnings. See Troubleshooting if needed.
+6. `npm start`
 - React app will start at localhost:3000
   - View the app using the url of `Forwarded Port` for 3030
 
