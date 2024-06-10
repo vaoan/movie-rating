@@ -13,7 +13,7 @@ func ConfigureRouter(r *mux.Router) {
 	api := r.PathPrefix("/api").Subrouter()
 
 	api.HandleFunc("/health", Health).Methods("GET")
-	//api.HandleFunc("/movies", GetMovies).Methods("GET")
+	api.HandleFunc("/movies", GetMovies).Methods("GET")
 
 }
 

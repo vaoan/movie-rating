@@ -1,6 +1,7 @@
 import React from 'react';
 import './Main.css';
-import reel from './Moviereel.gif'
+
+import { NavLink, Outlet } from 'react-router-dom';
 
 const MovieDashboard = () => {
 
@@ -10,16 +11,16 @@ const MovieDashboard = () => {
             <section className={"Background"}>
                 <header>
                     <div className={'Button-layout'}>
-                        <button>Movies</button>
-                        <button>Coming soon!</button>
-                        <button>Trending</button>
-                        <button>Leaving Soon</button>
-                        <button>Health</button>
+                        <NavLink to="movies"><button>Movies</button></NavLink>
+                        <NavLink to="soon"><button>Coming soon!</button></NavLink>
+                        <NavLink to="trending"><button>Trending</button></NavLink>
+                        <NavLink to="leaving"><button>Leaving Soon</button></NavLink>
+                        <NavLink to={"health"}><button>Health</button></NavLink>
                     </div>
                     <h1 className={'Header'}>The Home Movie Depot</h1>
-
                 </header>
-                <img src={reel} className={'Movie-gif'} alt="logo"/>
+                <Outlet />
+                
             </section>
         </div>
 
